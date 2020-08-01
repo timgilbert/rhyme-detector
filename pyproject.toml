@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rhyme-detector"
+version = "0.1.0"
+description = ""
+authors = ["Tim Gilbert <timgilbert@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pronouncing = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+mypy = "^0.782"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
